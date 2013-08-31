@@ -1,10 +1,11 @@
 (function (document, window) {
-
+    var initialColor = "rgb(127, 127, 127)";
     var maxWidth = window.innerWidth;
     var fifty = document.getElementById('fifty');
-    
+    fifty.style.color = initialColor;
+
     var reference = document.getElementById('reference');
-    reference.innerHTML = 'rgb(0, 0, 0)';
+    reference.innerHTML = initialColor;
     var refOffsetHeight = reference.offsetHeight;
 
     var main = document.getElementById('main');
