@@ -5,8 +5,7 @@
     
     var reference = document.getElementById('reference');
     reference.innerHTML = 'rgb(0, 0, 0)';
-    var refOffsetHeight = reference.offsetHeight * 1.5;
-    console.log(refOffsetHeight);
+    var refOffsetHeight = reference.offsetHeight;
 
     var main = document.getElementById('main');
     main.style.height = (window.innerHeight - refOffsetHeight) + 'px';
