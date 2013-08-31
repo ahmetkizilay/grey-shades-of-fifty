@@ -3,16 +3,38 @@
 }
 
 body {
-    background-color: grey;
+    background-color: gray;
 }
 
 #fifty {
     font-size: 300px;
+    position: absolute;
 }
 
 #reference {
-    font-size: 15px;
+    font-size: 12px;
     position:absolute;
-    right: 10px;
+    left: 10px;
     bottom: 2px;
 }
+
+#instructions {
+    color: gray;
+    font-size: 22px;
+    font-weight: bold;
+    animation: fadeout 5s;
+    -webkit-animation: fadeout 5s;
+}
+
+@keyframes fadeout {
+    0% { color: black; text-shadow: 0 0 10px rgba(0,0,0,0.5)}
+    80% {text-shadow: 0 0 70px rgba(0,0,0,0.5)}
+    100% {color: gray;}
+}
+
+@-webkit-keyframes fadeout {
+    0% { color: black; text-shadow: 0 0 10px rgba(0,0,0,0.5)}
+    80% {text-shadow: 0 0 70px rgba(0,0,0,0.5)}
+    100% {color: gray;}
+}
+
