@@ -29,6 +29,10 @@ body {
     text-decoration: none;
 }
 
+#forkit a:link {
+    color: black;
+}
+
 #instructions {
     color: gray;
     font-size: 22px;
