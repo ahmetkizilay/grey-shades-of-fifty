@@ -18,6 +18,17 @@ body {
     bottom: 2px;
 }
 
+#forkit {
+    font-size: 15px;
+    position:absolute;
+    right: 10px;
+    bottom: 2px;
+}
+
+#forkit a {
+    text-decoration: none;
+}
+
 #instructions {
     color: gray;
     font-size: 22px;
