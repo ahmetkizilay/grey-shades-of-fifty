@@ -5,10 +5,9 @@
     var fifty = document.getElementById('fifty');
     fifty.style.color = initialColor;
 
-    var reference = document.getElementById('reference');
-    reference.innerHTML = initialColor;
+    var forkit = document.getElementById('forkit');
 
-    var refOffsetHeight = reference.offsetHeight;
+    var refOffsetHeight = forkit.offsetHeight;
 
     var main = document.getElementById('main');
     main.style.height = (window.innerHeight - refOffsetHeight) + 'px';
@@ -25,7 +24,6 @@
         var rgbStr = "rgb(" + scaled + ", " + scaled + ", " + scaled + ")";
         
         fifty.style.color = rgbStr;
-        reference.innerHTML = rgbStr;
     };
 
 })(document, window);

@@ -11,13 +11,6 @@ body {
     position: absolute;
 }
 
-#reference {
-    font-size: 12px;
-    position:absolute;
-    left: 10px;
-    bottom: 2px;
-}
-
 #forkit {
     font-size: 15px;
     position:absolute;
